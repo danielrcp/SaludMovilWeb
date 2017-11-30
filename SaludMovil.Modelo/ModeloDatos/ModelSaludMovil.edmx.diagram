@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0a525acc69a74dd3aa44dd913fa260a9" Name="Diagram1" ZoomLevel="80">
+        <EntityTypeShape EntityType="SaludMovil.Modelo.Objeto" Width="1.5" PointX="4.1981486194758437" PointY="30.331187500772618" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.RoleObjeto" Width="1.5" PointX="11.315032353305739" PointY="29.541071384000158" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Alarma" Width="1.5" PointX="10.912494934588901" PointY="11.659616535370992" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Antecedente" Width="1.5" PointX="11.893527287940275" PointY="8.7932689528880967" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_AntecedentePaciente" Width="1.5" PointX="0.57850631167111288" PointY="0.12962071603612077" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_AspectosMonitoreados" Width="1.5" PointX="10.735812350518913" PointY="13.946684083876519" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Auditoria" Width="1.5" PointX="11.792306307606541" PointY="5.2189501846297413" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Calendario" Width="1.5" PointX="2.9240301861073963" PointY="29.041870026403046" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Cargo" Width="1.5" PointX="10.726075875910965" PointY="6.6236213774530315" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_CentroSalud" Width="1.5" PointX="2.0916422242725465" PointY="2.1450509140943415" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Ciudad" Width="1.5" PointX="10.809649938163183" PointY="8.2172200569031855" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_DatosTipoCalificacion" Width="1.5" PointX="11.960765115898457" PointY="12.544096043586777" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Departamento" Width="1.5" PointX="2.209363377750555" PointY="15.863662056561402" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Dispositivo" Width="1.5" PointX="8.6269748921631724" PointY="5.4438619191962578" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Empresa" Width="1.5" PointX="0.20738436105073632" PointY="10.079874803349318" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_EncabezadoValoracionRiesgo" Width="1.5" PointX="5.1640828909185172" PointY="22.301078881277274" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Encuesta" Width="1.5" PointX="6.6378505018715988" PointY="18.885789164754463" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Especialidad" Width="1.5" PointX="9.7592731051888659" PointY="12.400669893436445" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Estado" Width="1.5" PointX="0.47981296688309549" PointY="25.740156230395733" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_FiltroNotificaciones" Width="1.5" PointX="9.9603590303847369" PointY="1.1655891841117243" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Guia" Width="1.5" PointX="10.747365826157559" PointY="8.8057052087065326" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_GuiaPaciente" Width="1.5" PointX="11.817699406211125" PointY="10.637307186907766" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Homologacion" Width="1.5" PointX="6.8179311988958773" PointY="27.680423868671259" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Imagen" Width="1.5" PointX="6.1348635955410371" PointY="24.093608032955604" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Informacion" Width="1.5" PointX="9.384553122047592" PointY="28.175449339754621" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_LogNotificaciones" Width="1.5" PointX="6.4996415351050167" PointY="11.372669374278127" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Medicamento" Width="1.5" PointX="4.7060143690118625" PointY="17.264293216757611" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_MedicionRiesgo" Width="1.5" PointX="5.1949661863944341" PointY="2.9778429283657313" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_MedioAtencion" Width="1.5" PointX="11.413430196891273" PointY="17.629323565228528" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Notificacion" Width="1.5" PointX="8.8685383912495048" PointY="13.236324435675668" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_NotificacionesPush" Width="1.5" PointX="7.7453813086009493" PointY="26.272210848644473" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Opcion" Width="1.5" PointX="3.0900914962823" PointY="23.462808694440316" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_OpcionPregunta" Width="1.5" PointX="6.8845248775950285" PointY="6.3277540534398309" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_OrigenToma" Width="1.5" PointX="10.592156029582096" PointY="12.56036098886298" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Paciente" Width="1.5" PointX="4.1978332140472876" PointY="27.396743936183277" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_PacientePersonalMedico" Width="1.5" PointX="10.410888293018047" PointY="2.8627127720335093" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_PacientePrograma" Width="1.5" PointX="4.5234989861601491" PointY="4.4121234139483994" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Pais" Width="1.5" PointX="2.05702826662782" PointY="20.020027959728626" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Parametro" Width="1.5" PointX="3.26375811512757" PointY="21.258066455488123" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_ParametroReglas" Width="1.5" PointX="9.8861048174491639" PointY="10.211211805330223" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Parentesco" Width="1.5" PointX="11.814009675669489" PointY="30.911658346146186" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Persona" Width="1.5" PointX="4.6568950976510042" PointY="4.37757562304734" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_PersonalMedico" Width="1.5" PointX="9.2803115161509773" PointY="2.3982183348379182" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Poblacion" Width="1.5" PointX="3.6568902114671147" PointY="0.4366414548999823" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Pregunta" Width="1.5" PointX="1.8872047503884901" PointY="23.04688535213791" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Programa" Width="1.5" PointX="5.2368210131473933" PointY="15.65017767979306" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_ProgramacionEncuestas" Width="1.5" PointX="0.78402019514889454" PointY="13.324632978683633" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Respuesta" Width="1.5" PointX="4.6917146354409471" PointY="2.3874313544423464" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Riesgo" Width="1.5" PointX="0.21204795698264983" PointY="8.0510563887893483" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Rol" Width="1.5" PointX="9.104465317495384" PointY="11.853395810282509" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_RolOpcion" Width="1.5" PointX="11.788002921169625" PointY="3.7992752659131193" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Sincronizacion" Width="1.5" PointX="4.8372697983110653" PointY="29.628731055943636" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_SincronizacionTomas" Width="1.5" PointX="0.15490520938993674" PointY="14.469664654913203" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_TipoAlarma" Width="1.5" PointX="11.741252029194149" PointY="8.1372482367499028" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_TipoCalificacion" Width="1.5" PointX="4.4170816896562846" PointY="25.833215203989862" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_TipoDispositivo" Width="1.5" PointX="9.85293298300958" PointY="9.1777474028886044" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_TipoEvento" Width="1.5" PointX="8.7248915195115337" PointY="13.438223904668458" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_TipoGuia" Width="1.5" PointX="5.1496119877088873" PointY="21.742691810123013" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_TipoGuiaXPrograma" Width="1.5" PointX="5.1951839705906737" PointY="3.862668367038792" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_TipoIdentificacion" Width="1.5" PointX="11.518241744264142" PointY="15.960514672082157" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_TipoIngreso" Width="1.5" PointX="10.716017558572823" PointY="27.80910795731894" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_TipoMedicamento" Width="1.5" PointX="2.8229306204351272" PointY="20.14733655198819" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_TipoPersona" Width="1.5" PointX="5.0369579629213357" PointY="12.112191101588397" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_TipoPregunta" Width="1.5" PointX="0.28949709436367133" PointY="30.7380309844101" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_Usuario" Width="1.5" PointX="8.9628316447897038" PointY="3.0979773565651745" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_UsuarioRol" Width="1.5" PointX="7.2954625279155856" PointY="0.65229858488417169" />
+        <EntityTypeShape EntityType="SaludMovil.Modelo.sm_VersionTabla" Width="1.5" PointX="10.867309603312663" PointY="14.50955036958193" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_AntecedentesPaciente_sm_antecedentes" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_Paciente_sm_CentroSalud" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_Ciudad_sm_Departamento" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_datosTipoCalificacion_sm_TiposCalificacion" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_Departamento_sm_Pais" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_Pregunta_sm_Encuesta" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_salud_Estado" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_Guia_sm_Estado" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_TipoGuia_sm_Estado" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_Guia_sm_Riesgo" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_GuiaPaciente_sm_Guia" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_Guias_sm_Programas" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_Guias_sm_TipoGuia" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_GuiaPaciente_sm_OrigenToma" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_GuiaPaciente_sm_Persona" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_GuiaPaciente_sm_TipoEvento" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_Paciente_sm_MedioAtencion" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_RolOpcion_sm_Opcion" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_OpcionPregunta_sm_Pregunta" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_Respuesta_sm_OpcionPregunta" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_Paciente_sm_Parentesco" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_Paciente_sm_Persona" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_Paciente_sm_Persona1" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_Paciente_sm_Riesgo" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_Paciente_sm_TipoIngreso" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_PacientePrograma_sm_Persona" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_PacientePrograma_sm_Programa" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_Respuesta_sm_Persona" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_salud_Poblacion" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_Pregunta_sm_TipoPregunta" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_Respuesta_sm_Pregunta" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_TipoGuiaXPrograma_sm_Programa" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_RolOpcion_sm_Rol" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_UsuarioRelRole_Role" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_SincronizacionTomas_sm_SincronizacionTomas" />
+        <AssociationConnector Association="SaludMovil.Modelo.FK_sm_TipoGuiaXPrograma_sm_TipoGuia" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

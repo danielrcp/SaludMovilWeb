@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SaludMovil.Portal.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title><%:Page.Title %> - Salud Móvil</title>
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link rel="shortcut icon" type="image/x-icon" href="Images/LabelLogo.png" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/SaludMovil.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width" />
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="jquery.ui.combined" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+            </Scripts>
+        </asp:ScriptManager>
+        <script type="text/javascript">
+            function CerrarSesion(parameter) {
+                __doPostBack('btnCerrarSesion', parameter)
+            }
+            function Inicio(parameter) {
+                __doPostBack('btnInicio', parameter)
+            }
+        </script>
+        <script src="Scripts/Modulos/Principal.js"></script>
+        <header>
+            <section class="container-fluid">
+                <nav class="navbar navbar-inverse navbar-fixed-top navbar-custom">
+                    <div class="container-fluid">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li><a><asp:Label runat="server" ID="lblPortal" /></a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a onclick="javascript:Inicio('Inicio')"><span class="glyphicon glyphicon-home"></span><asp:Label runat="server" ID="lblInicio" Text="Inicio" /></a></li>
+                            <li><a><span class="glyphicon glyphicon-calendar"></span><asp:Label runat="server" ID="lblFecha" /></a></li>
+                            <li><a><span class="glyphicon glyphicon-user"></span><asp:Label runat="server" ID="lblNUsuario" /></a></li>
+                            <li><a><span class="glyphicon glyphicon-menu-down"></span><asp:Label runat="server" ID="lblVersion" Text="1.6.1" /></a></li>
+                            <li><a onclick="javascript:CerrarSesion('CerrarSesion')"><span class="glyphicon glyphicon-log-out"></span><asp:Label runat="server" ID="lblCerrar" Text="Cerrar sesión" /></a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="container-fluid">
+                    <nav class="navbar navbar-inverse fixed-top navbar-menuTelerik">
+                        <div class="container-fluid">
+                            <ul class="nav navbar-nav navbar-left">
+                                <telerik:RadMenu ID="menu" runat="server" Skin="Bootstrap"/>
+                            </ul>
+                            <ul class="nav navbar-nav navbar-right">
+                                <a class="navbar-brand">                                    
+                                    <img class="img-thumbnail" style="max-width:450px; max-height:68px; border:none" src="../Images/logo.png">
+                                </a>
+                                <%--<img src="Images/LogoOriginal.png" class="pull-right" />--%>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </section>
+        </header>
+        <div class="container body-content" style="padding-top:105px">
+            <section class="container">
+                <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+            </section>
+        </div>
+        <footer class="modal-footer" style="background:none !Important">
+            <div class="content-wrapper" style="background:none !Important">
+                <div class="float-left"  style="background:none !Important">
+                    <p>&copy; <%: DateTime.Now.Year %> - Icono Informática</p>
+                </div>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>

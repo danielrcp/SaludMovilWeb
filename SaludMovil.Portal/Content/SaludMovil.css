@@ -1,0 +1,352 @@
+﻿.RadDock a {
+    color: #58954D;
+}
+ 
+.higherZIndex {
+    z-index: 2;
+}
+
+.info p {
+    text-align: center;
+    color: #999;
+    text-transform: none;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 2px;
+}
+
+.info i {
+    color: #F6AA93;
+}
+
+
+
+
+p span {
+    color: #F00;
+}
+
+p {
+    margin: 0px;
+    font-weight: 500;
+    line-height: 2;
+    color: #333;
+}
+
+
+a {
+    text-decoration: inherit;
+}
+
+textarea {
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid #EEE;
+    margin: 0;
+    width: 75%;
+    height: 130px;
+    float: left;
+    padding: 0px 15px;
+}
+
+
+.icon-case {
+    width: 35px;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+    background: #eeeeee;
+    height: 42px;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+}
+
+i {
+    color: #555;
+}
+
+.contentform {
+    padding: 40px 30px;
+}
+
+.bouton-contact {
+    background-color: #81BDA4;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    border: 0;
+    padding: 17px 25px;
+    border-radius: 0px 0px 5px 5px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.leftcontact {
+    width: 49.5%;
+    float: left;
+    border-right: 1px dotted #CCC;
+    box-sizing: border-box;
+    padding: 0px 15px 0px 0px;
+}
+
+.rightcontact {
+    width: 49.5%;
+    float: right;
+    box-sizing: border-box;
+    padding: 0px 0px 0px 15px;
+}
+
+.validation {
+    display: none;
+    margin: 0 0 10px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #DE5959;
+}
+
+#sendmessage {
+    border: 1px solid #fff;
+    display: none;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 600;
+    margin-bottom: 30px;
+    background-color: #EBF6E0;
+    color: #5F9025;
+    border: 1px solid #B3DC82;
+    padding: 13px 40px 13px 18px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.03);
+}
+
+    #sendmessage.show, .show {
+        display: block;
+    }
+
+.button:hover {
+    box-shadow: inset 0 0 0 5px #3071A9;
+}
+
+
+/*.RadGrid {
+    border-radius: 10px;
+    overflow: hidden;
+}*/
+/*
+:required:focus {
+    box-shadow: 0 0 3px rgba(255,0,0,0.5);
+}
+
+input:invalid {
+    border: 1px solid red;
+    box-shadow: 0 0 3px rgba(255,0,0,0.5);
+}*/
+
+/* Estilo por defecto */
+
+/*input:valid {
+    border: 1px solid green;
+    box-shadow: 0 0 3px rgba(255,0,0,0.5);
+}
+
+input:required:invalid {
+    border: 1px solid red;
+    box-shadow: 0 0 3px rgba(255,0,0,0.5);
+}
+
+input:required:valid {
+    border: 1px solid green;
+    box-shadow: 0 0 3px rgba(255,0,0,0.5);
+}*/
+
+.navbar-custom {
+    background-color: #3071A9;
+}
+
+.navbar-inverse .navbar-nav > li > a 
+{
+    color:#fff;
+}
+
+.navbar-inverse .navbar-nav > li > a :hover
+{
+    background-color:#7188e2;
+}
+
+.RadGrid_Silk {
+    border: none !Important;
+}
+
+.fixed-top {
+    position:fixed;
+    top:51px;
+    z-index:1030;
+    border-bottom:1px solid #555;
+    padding-bottom:20px;
+    background:#FFF;
+}
+
+.encabezado {
+    padding:3px 0px 10px 10px;
+    font:20px Verdana, arial;
+    background-color: #223872;
+    height: 30px !Important; 
+    border-radius: 5px; 
+    color: #FFFFFF;
+}
+
+.encabezadoWizard {
+    padding:3px 0px 10px 10px;
+    font:20px Verdana, arial;
+    background-color: #223872;
+    height: 30px !Important; 
+    border-radius: 5px; 
+    color: #FFFFFF;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.navbar-menuTelerik {
+    width: 97%;
+    border: none;
+}
+
+/*Estilos encuestas Andres Chica*/
+.lblTexto {
+    font-family: Verdana, Arial;
+    font-size:12px;
+}
+
+.divEncuesta {
+    width: 85%;
+    margin-left:5%;
+}
+
+.headEncuesta {
+    height:60px;
+}
+
+.nombreEncuesta {
+    text-align:center !important;
+    font-size: 35px;
+}
+
+.lblPregunta {
+    font-size:medium;
+    font-weight:600;
+}
+
+.chbxEncuesta {
+    font-weight:300;
+    margin-left:7px;
+}
+.chbxEncuesta input {
+    elevation:lower;
+	table-layout:fixed;
+	vertical-align:top;
+	font-size:12px;
+}
+
+.chbxEncuesta label {
+    font-weight:300;
+    margin-left:4px;
+}
+
+.paramEncuestas .RadGrid_Silk .rgCommandRow {
+background-image:none !important;
+background-color:#223872 !important;
+}
+
+.paramEncuestas .RadGrid_Silk .rgCommandRow a {
+    color:white !important;    
+}
+
+.paramEncuestas .RadGrid_Silk .rgDetailTable {
+    margin-bottom:0.75em !important;
+    border: groove #337ab7 !important;
+}
+
+.paramEncuestas .RadGrid_Silk .rgSelectedRow {
+background-color: rgba(154, 213, 233, 0.38) !important; 
+}
+
+.paramEncuestas .RadGrid_Silk .rgSelectedRow .rgSorted {
+    background-color:rgba(45, 171, 193, 0.21) !important;    
+}
+
+.panel-heading {
+    box-shadow: 3px 3px 3px #888888;
+    border: ridge 2px #337ab7 !important;
+    background-color: #3071A9 !important;
+    color: white !important;
+}
+
+.panel-body {
+    box-shadow: 3px 3px 3px #888888;
+    border: inset #337ab7 !important;
+    border-width: 0px 2px 2px 2px !important;
+}
+
+.btnEnviarEncuesta{
+    border-radius:7px;
+    font-size:large;
+    font-weight:600;
+    padding:7px;
+}
+
+.programaEncuestas div.RadListBox .rlbTransferTo,
+.programaEncuestas div.RadListBox .rlbTransferToDisabled,
+.programaEncuestas div.RadListBox .rlbTransferAllToDisabled,
+.programaEncuestas div.RadListBox .rlbTransferAllTo,
+.programaEncuestas div.RadListBox .rlbTransferAllFrom,
+.programaEncuestas div.RadListBox .rlbMoveUp,
+.programaEncuestas div.RadListBox .rlbMoveDown{
+       display: none;
+    }
+
+.programaEncuestas div.RadListBox .rlbTransferFrom,
+.programaEncuestas div.RadListBox .rlbDelete{
+    margin-top:160px;
+}
+
+.programaEncuestas div.RadListBox .rlbHeader{
+    background-color:#223872 !important;
+    color: white !important;
+}
+
+.btnCrearEncuesta {
+    font-weight:500 !important;
+    color:white !important;
+    background-color: #223872 !important;
+    padding-top:3px;
+}
+
+.txtTema {
+    width:48%;
+}
+
+.temaEncuesta {
+    padding-right:0px !important;
+}
+
+
+.icono-sm {
+    color:white;
+    font-size:15px;
+}
+
+.btnCerrar {
+    display:inline-block !important;
+    vertical-align: top;
+}
+
+.encuestaTitulo {
+    display:inline-block !important;
+}
